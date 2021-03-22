@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Document</title>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Consecutive login length details</h1>
+    <table>
+        <tr>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Length</th>
+        </tr>
+        <tr>
+            <td>{{startDate}}</td>
+            <td>{{endDate}}</td>
+            <td>{{length}}</td>
+        </tr>
+    </table>
+</body>
+
+</html>
